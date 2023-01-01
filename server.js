@@ -11,7 +11,7 @@ const router = express.Router();
 // Setup Local
 const config = require('./app/config');
 const User = require('./app/models/user');
-const port = '3000';
+const port = '4000';
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
